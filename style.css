@@ -23,13 +23,14 @@ body {
   position: relative;
 }
 
-.imag {
+.imag .sofagif {
   width: 449px;
 }
 
 .imag button {
   position: absolute;
   right: 0;
+  margin: 0 25px;
   border: none;
   border-radius: 8px;
   background-color: #d9cdf7;
@@ -39,8 +40,8 @@ body {
   background-color: rgb(214, 204, 238);
 }
 
-.imag button img {
-  width: 33px;
+.imag button + button img {
+  width: 19px;
 }
 
 .codehome,
@@ -86,4 +87,27 @@ span {
   background-color: #d1c0fa;
 }
 
+.text {
+  animation-name: topdown;
+  animation-duration: 700ms;
+  animation-fill-mode: forwards;
+  animation-delay: 100ms;
+}
+
+@keyframes topdown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /* display none */
+
+.hide {
+  display: none;
+}
