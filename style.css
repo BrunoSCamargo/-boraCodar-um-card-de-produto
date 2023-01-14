@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=Lato:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d9cdf7;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.page main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.imag {
+  position: relative;
+}
+
+.imag {
+  width: 449px;
+}
+
+.imag button {
+  position: absolute;
+  right: 0;
+  border: none;
+  border-radius: 8px;
+  background-color: #d9cdf7;
+}
+
+.imag button:hover {
+  background-color: rgb(214, 204, 238);
+}
+
+.imag button img {
+  width: 33px;
+}
+
+.codehome,
+p,
+button,
+span {
+  font-family: "Lato", sans-serif;
+  color: #271a45;
+}
+
+.codehome span {
+  font-size: 10px;
+  line-height: 100%;
+  opacity: 0.7;
+}
+
+.codehome h1 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+
+  color: #271a45;
+  font-family: "Crimson Pro", serif;
+
+  margin: 12px 0;
+}
+
+.codehome p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  margin-bottom: 20px;
+}
+
+.codehome button {
+  border-radius: 999px;
+  padding: 8px 16px;
+  background-color: #d9cdf7;
+  border: 1px solid black;
+}
+
+.codehome button:hover {
+  background-color: #d1c0fa;
+}
+
+/* display none */
