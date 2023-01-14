@@ -29,5 +29,5 @@ btn.addEventListener("click", () => {
   setTimeout(() => {
     phrase.classList.add("hide");
     phrase.classList.remove("animated");
-  }, 2000);
+  }, 3000);
 });
