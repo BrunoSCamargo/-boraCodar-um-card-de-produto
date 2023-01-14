@@ -22,5 +22,12 @@ secondbutton.addEventListener("click", () => {
 });
 
 btn.addEventListener("click", () => {
-  text.innerHTML = "Item adicionado aos favoritos";
+  text.innerHTML = "Item adicionado á Cesta";
+  let phrase = document.getElementById("myPhrase");
+  phrase.classList.remove("hide");
+  phrase.classList.add("animated");
+  setTimeout(() => {
+    phrase.classList.add("hide");
+    phrase.classList.remove("animated");
+  }, 2000);
 });

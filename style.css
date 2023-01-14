@@ -88,16 +88,19 @@ span {
 }
 
 .text {
+  margin-top: 5px;
+}
+
+.animated {
   animation-name: topdown;
   animation-duration: 700ms;
   animation-fill-mode: forwards;
-  animation-delay: 100ms;
 }
 
 @keyframes topdown {
   0% {
     opacity: 0;
-    transform: translateY(-20px);
+    transform: translateY(-15px);
   }
 
   100% {
@@ -110,4 +113,13 @@ span {
 
 .hide {
   display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .page main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
