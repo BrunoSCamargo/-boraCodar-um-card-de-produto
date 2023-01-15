@@ -38,6 +38,7 @@ body {
   border: none;
   border-radius: 0.8rem;
   background-color: #d9cdf7;
+  cursor: pointer;
 }
 
 .imag button:hover {
@@ -85,6 +86,7 @@ span {
   padding: 0.8rem 1.6rem;
   background-color: #d9cdf7;
   border: 1px solid black;
+  cursor: pointer;
 }
 
 .codehome button:hover {
@@ -112,8 +114,6 @@ span {
     transform: translateY(0);
   }
 }
-
-/* display none */
 
 .hide {
   display: none;
